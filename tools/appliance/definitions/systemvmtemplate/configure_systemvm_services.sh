@@ -107,8 +107,8 @@ EOF
 
   systemctl daemon-reload
   systemctl enable cloud-early-config
-  systemctl enable cloud-passwd-srvr
-  systemctl enable cloud
+  systemctl disable cloud-passwd-srvr
+  systemctl disable cloud
 }
 
 function do_signature() {
@@ -143,6 +143,8 @@ function configure_services() {
   systemctl disable x11-common
   systemctl disable console-setup
   systemctl disable haproxy
+  systemctl disable apache2
+  systemctl disable dnsmasq
 
   # Hyperv kvp daemon - 64bit only
   local arch=`dpkg --print-architecture`
