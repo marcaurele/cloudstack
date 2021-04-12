@@ -126,7 +126,7 @@
         <cs.globodns-client.version>0.0.27</cs.globodns-client.version>
         <cs.groovy.version>2.4.17</cs.groovy.version>
         <cs.gson.version>1.7.2</cs.gson.version>
-        <cs.guava.version>28.2-jre</cs.guava.version>
+        <cs.guava.version>29.0-jre</cs.guava.version>
         <cs.httpclient.version>4.5.11</cs.httpclient.version>
         <cs.httpcore.version>4.4.13</cs.httpcore.version>
         <cs.influxdb-java.version>2.17</cs.influxdb-java.version>
